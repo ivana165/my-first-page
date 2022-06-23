@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    margin: 0px;
+    height: 800px;
+    background-image: url('header.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.top {
+    background-color:#d52114;
+    height: 18px;
+    position: relative;
+}
+
+header nav h1{
+    color: white;
+    font-size: 55px;
+    background-color: #d52114;
+    width: fit-content;
+    position: absolute;
+    padding: 40px;
+    margin-top: 0px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+    background-color: #d52114;
+    padding: 80px;
+}
