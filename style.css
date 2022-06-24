@@ -1,46 +1,111 @@
-*{
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
 }
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
 
-header{
-    margin: 0px;
-    height: 800px;
-    background-image: url('header.jpg');
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+header {
+    background: url(header.jpg);
     background-position: center;
     background-size: cover;
+    border-top: solid 8px #d52114;
+    height: 70vh;
+
 }
 
-.top {
-    background-color:#d52114;
-    height: 18px;
-    position: relative;
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-header nav h1{
-    color: white;
-    font-size: 55px;
-    background-color: #d52114;
-    width: fit-content;
-    position: absolute;
-    padding: 40px;
-    margin-top: 0px;
-    margin-left: 300px;
-    border-radius: 10px;
+nav li {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 20px 10px;
 }
 
+nav li:first-child {
+    background: #d52114;
+    border-radius: 8px;
+}
 
+nav a {
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-footer{
-    color: white;
+.logo h1 {
+    color: #fff;
+    background: #d52114;
+    padding: 20px 35px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color: #d52114;
+    background: #d52114;
+    max-width: 60%;
+    margin: auto;
+    height: 5px;
+}
+
+section {
+    margin: 60px;
+}
+
+main section {
     text-align: center;
-    font-size: 30px;
+}
 
-    background-color: #d52114;
-    padding: 80px;
+main section h2 {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main section p:last-child {
+    color: #000;
+}
+
+main section p {
+    color: #d0d0d0;
+}
+
+main section article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+main section article img {
+    border-radius: 8px;
+    margin: 0px 25px;
+    width: 30%;
+}
+
+footer {
+    color: #fff;
+    background: #d52114;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 35px 0px;
+    margin-top: 80px;
 }
